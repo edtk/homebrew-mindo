@@ -5,21 +5,21 @@ cask "mindo" do
   on_macos do
     on_arm do
       sha256 "8bb2fb6d36b1427cc882c6c931fd9fc75627bcecc27793e04c9651bf402a40b0"
-      url "https://github.com/edtk/homebrew-tap/releases/download/v#{version}/mindo_#{version}_darwin_arm64.tar.gz"
+      url "https://github.com/edtk/homebrew-mindo/releases/download/v#{version}/mindo_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
       sha256 "34c358da0e7f311dd20f860a34d549faf7a6cdfc9a6c1deb3621312620491002"
-      url "https://github.com/edtk/homebrew-tap/releases/download/v#{version}/mindo_#{version}_darwin_amd64.tar.gz"
+      url "https://github.com/edtk/homebrew-mindo/releases/download/v#{version}/mindo_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
       sha256 "26ba10f97131b960210d6885a8cc251d1b8ab1252f1220b6870f471bc8df4d8d"
-      url "https://github.com/edtk/homebrew-tap/releases/download/v#{version}/mindo_#{version}_linux_arm64.tar.gz"
+      url "https://github.com/edtk/homebrew-mindo/releases/download/v#{version}/mindo_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
       sha256 "c39c4b96076b5a11bafe1b915e9c0112849cb73e0819027be43fb85eb67a2b29"
-      url "https://github.com/edtk/homebrew-tap/releases/download/v#{version}/mindo_#{version}_linux_amd64.tar.gz"
+      url "https://github.com/edtk/homebrew-mindo/releases/download/v#{version}/mindo_#{version}_linux_amd64.tar.gz"
     end
   end
 
